@@ -12,6 +12,13 @@ que les tinc a http://hortet.joancatala.net , i ara he volgut que aquest script 
 galeries HTML que tinc, com per exemple la meua galeria d'astrofotografia http://astrofotografia.joancatala.net
 I xim pum.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-3-columnas.jpg" width="300" alt="Exemple de galeria amb 3 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-6-columnas.jpg" width="300" alt="Exemple de galeria amb 6 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-9-columnas.jpg" width="300" alt="Exemple de galeria amb 9 columnes><br />
+</p>
+
+
 Requisits:
 ==========================
 doas pkg_add -vi ***ImageMagick***  
