@@ -54,5 +54,5 @@ Instal·lació i execució:
 
 <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/terminal1.jpg" width="550px" alt="" />
 
-Veurem els processos que van ocorreguent:
-<img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/terminal1.jpg" width="550px" alt="" />
+Veurem els processos que van ocorreguent:  
+<img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/terminal2.jpg" width="550px" alt="" />
