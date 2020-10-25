@@ -7,20 +7,20 @@ Tens fotos organitzades per directoris i vols obtenir una galeria HTML molona? a
 
 Al fitxer **galeriaHTML.tar.gz** tens 3 index.php d'exemple: web amb 3 columnes, amb columnes i amb 9 columnes.
 
-  <center>
+<center>
   <h3>Galeria amb 3 columnes</h3>
   <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-3-columnas.jpg" width="400" alt="Exemple de galeria amb 3 columnes"><br />
-  </center>
+</center>
   
-  <center>">
+<center>
   <h3>Galeria amb 6 columnes</h3>
   <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-6-columnas.jpg" width="400" alt="Exemple de galeria amb 6 columnes"><br />
-  </center>
+</center>
   
-  <center>
+<center>
   <h3>Galeria amb 9 columnes</h3>
   <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-9-columnas.jpg" width="400" alt="Exemple de galeria amb 9 columnes"><br />
-  </center>
+</center>
 
 Jo tinc un hortet al terrat, aquest programa em va servir per primera vegada per organitzar-me les fotos de l'hort que les tinc a http://hortet.joancatala.net , i ara he volgut que aquest script servisca per a altres galeries HTML que tinc, com per exemple la meua galeria d'astrofotografia http://astrofotografia.joancatala.net
 I xim pum.
