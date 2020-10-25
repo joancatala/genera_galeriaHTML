@@ -20,7 +20,7 @@ Windows, FreeBSD, MacOS X, Linux, etc.
 
 Funcionament:
 ==========================
-Descarrega l'script amb git clone
-Primer pas:  cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'
-Segon pas: configura el nom del teu usuari i servidor i ruta remota de la teua web
-Tercer pas: python3 ./genera_galeria.py
+Descarrega l'script amb git clone  
+Primer pas:  cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'  
+Segon pas: configura el nom del teu usuari i servidor i ruta remota de la teua web  
+Tercer pas: python3 ./genera_galeria.py  
