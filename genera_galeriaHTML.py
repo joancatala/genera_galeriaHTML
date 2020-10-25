@@ -34,10 +34,10 @@ from sty import fg, bg, ef, rs, RgbFg
 # M'agrada pintar el titol, benvingut a la republica independent del meu terminal
 #####################################################################################
    
-os.system('rm publicar.tar.gz')
+os.system('rm publicar.tar.gz;')
 os.system('clear')
 print ("=========================================================================================================\n")
-print ("GENERADOR DE LA GALERIA HTML " + bg.blue + "(Versio 1.3)" + bg.rs + "\n")
+print ("GENERADOR DE LA GALERIA HTML " + bg.blue + "(Versio 1.4)" + bg.rs + "\n")
 print ("=========================================================================================================\n")
 
 #####################################################################################
@@ -137,11 +137,8 @@ with open('llistat_ordenat.txt') as fp:
             
             f.write("</p><br /><br />\n\n")
 
-
-
         line = fp.readline()
         cnt += 1
-
 
 # Tanquem el fitxer generador de la pagina HTML
 f.close()
@@ -159,7 +156,7 @@ time.sleep(1)
 
 # Pujem al servidor i descromprimir remotament la nostra galeria!
 print (fg.green + "[7]" + fg.rs + " Pujant la galeria al servidor. Aquest pas pot durar uns minuts... ")
-os.system('scp publicar.tar.gz ' + usuari + '@' + servidor + ':' + ruta + '. &')
+os.system('scp publicar.tar.gz ' + usuari + '@' + servidor + ':' + ruta + '.')
 os.system('ssh ' + usuari + '@' + servidor + ' " cd ' + ruta + '; rm galeria.php; rm -rf fotos; tar xfz publicar.tar.gz;' + '"')
 
 print (fg.green + "[8]" + fg.rs + " PROGRAMA FINALITZAT. JA TENS LA TEUA GALERIA PUBLICADA! \n\n")
