@@ -46,7 +46,8 @@ Aquest programari agafa el títol dels teus directoris i genera una galeria HTML
 
 Instal·lació i execució:
 ==========================
-1. Descarrega-ho amb: git clone https://github.com/joancatala/genera_galeriaHTML.git   
-2. Puja la clau SSH al servidor per a no escriure la contrasenya constantment: cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'  
-3. Configura el nom del teu usuari, nom del servidor i la teua ruta remota de la teua web (en l'apartat "Configuració")
-4. Finalment, executa l'script: python3 ./genera_galeria.py  
+1. Descarrega-ho amb: ***git clone https://github.com/joancatala/genera_galeriaHTML.git***   
+2. Puja al teu servidor la web ***galeriaHTML.tar.gz*** i descomprimeix-la.
+3. Puja la clau SSH al servidor per a no escriure la contrasenya constantment: ***cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'***  
+4. Configura el nom del teu usuari, nom del servidor i la teua ruta remota de la teua web (en l'apartat "Configuració")
+5. Finalment, executa l'script: ***python3 ./genera_galeria.py***  
