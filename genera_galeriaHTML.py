@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# 4 de juny 2020 - joan <joan@riseup.net> 
+# 25 d'octubre 2020 - joan <joan@riseup.net> 
 # Web del genera_galeriaHTML.py: http://galeriahtml.joancatala.net
 #
 # Requisits:
@@ -37,7 +37,7 @@ from sty import fg, bg, ef, rs, RgbFg
 os.system('rm publicar.tar.gz')
 os.system('clear')
 print ("=========================================================================================================\n")
-print ("GENERADOR DE LA GALERIA HTML " + bg.blue + "(Versio 1.2)" + bg.rs + "\n")
+print ("GENERADOR DE LA GALERIA HTML " + bg.blue + "(Versio 1.3)" + bg.rs + "\n")
 print ("=========================================================================================================\n")
 
 #####################################################################################
@@ -157,9 +157,9 @@ os.system('rm -rf ./fotos; rm -rf galeria.php;')
 print (fg.green + "[6]" + fg.rs + " Galeria llesta i comprimida per a ser publicada al servidor web.")
 time.sleep(1)
 
+# Pujem al servidor i descromprimir remotament la nostra galeria!
 print (fg.green + "[7]" + fg.rs + " Pujant la galeria al servidor. Aquest pas pot durar uns minuts... ")
 os.system('scp publicar.tar.gz ' + usuari + '@' + servidor + ':' + ruta + '. &')
 os.system('ssh ' + usuari + '@' + servidor + ' " cd ' + ruta + '; rm galeria.php; rm -rf fotos; tar xfz publicar.tar.gz;' + '"')
 
-#os.system('ssh u58642300@home329291155.1and1-data.host \'cd /kunden/homepages/37/d329291155/htdocs/joancatala.net/astrofotografia.joancatala.net/; rm galeria.php; rm -rf fotos; touch ieeeeee; tar xfz publicar.tar.gz \'')
 print (fg.green + "[8]" + fg.rs + " PROGRAMA FINALITZAT. JA TENS LA TEUA GALERIA PUBLICADA! \n\n")
