@@ -37,7 +37,7 @@ from sty import fg, bg, ef, rs, RgbFg
 os.system('rm publicar.tar.gz')
 os.system('clear')
 print ("=========================================================================================================\n")
-print ("GENERADOR DE LA GALERIA HTML " + bg.blue + "(Versio 1.1)" + bg.rs + "\n")
+print ("GENERADOR DE LA GALERIA HTML " + bg.blue + "(Versio 1.2)" + bg.rs + "\n")
 print ("=========================================================================================================\n")
 
 #####################################################################################
@@ -133,7 +133,7 @@ with open('llistat_ordenat.txt') as fp:
             f=open("galeria.php","a")
             f.write("<p><h1>" + titol_sense_numero.replace("-", " ") + "</h1>\n") #Lleve els guionets del nom del directori
             for valor in files:
-                f.write('<a class="fresco" href="' + base + '/' + str(valor) + '"><img class="imatge" src="' + base + '/' + str(valor) + '" alt="Observatori astronomic DIY Paiporta" /></a>\n')
+                f.write('<a class="fresco" href="' + base + '/' + str(valor) + '"><img class="imatge" src="' + base + '/' + str(valor) + '" alt="" /></a>\n')
             
             f.write("</p><br /><br />\n\n")
 
@@ -159,8 +159,7 @@ time.sleep(1)
 
 print (fg.green + "[7]" + fg.rs + " Pujant la galeria al servidor. Aquest pas pot durar uns minuts... ")
 os.system('scp publicar.tar.gz ' + usuari + '@' + servidor + ':' + ruta + '. &')
-#os.system("ssh \' + usuari+\'@\'+servidor + \' cd \'+ ruta + \'; rm galeria.php; rm -rf fotos; tar xfz publicar.tar.gz\'")
-os.system('ssh ' + usuari + '@' + servidor + ' " cd /kunden/homepages/37/d329291155/htdocs/joancatala.net/astrofotografia.joancatala.net/; rm galeria.php; rm -rf fotos; tar xfz publicar.tar.gz;"' )
+os.system('ssh ' + usuari + '@' + servidor + ' " cd ' + ruta + '; rm galeria.php; rm -rf fotos; tar xfz publicar.tar.gz;' + '"')
 
 #os.system('ssh u58642300@home329291155.1and1-data.host \'cd /kunden/homepages/37/d329291155/htdocs/joancatala.net/astrofotografia.joancatala.net/; rm galeria.php; rm -rf fotos; touch ieeeeee; tar xfz publicar.tar.gz \'')
 print (fg.green + "[8]" + fg.rs + " PROGRAMA FINALITZAT. JA TENS LA TEUA GALERIA PUBLICADA! \n\n")
