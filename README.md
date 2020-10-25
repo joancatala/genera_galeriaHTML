@@ -44,6 +44,15 @@ Aquest programari agafa el títol dels teus directoris i genera una galeria HTML
 - el nom del servidor.
 - la ruta de l'espai web remot on tindràs publicada la galeria.
 
+Has de crear un directori anomenat ***fotos-originals*** i deixar els teus directoris i fotos dins. Pots ordenar els directoris a la galeria HTML afegint un número + espai al principi, i el text ha d'estar separat amb guionet. Per exemple, anem a fer una galeria de proves de fotos d'aniversaris:
+
+1 aniversari-30-anys
+2 aniversari-31-anys
+3 aniversari-del-meu-cosí
+4 aniversari-de-la-meua-germana-Ana
+
+I així ja ho tindríes preparat per a tenir una galeria amb 4 directoris ordenats.
+
 Instal·lació i execució:
 ==========================
 1. Descarrega-ho amb: ***git clone https://github.com/joancatala/genera_galeriaHTML.git***   
