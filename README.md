@@ -3,7 +3,9 @@ genera_galeriaHTML
 
 Descripció:
 ==========================
-Tens fotos organitzades per directoris i vols obtenir una galeria HTML molona? aquest és el teu script.
+Tens fotos organitzades per directoris i vols obtenir una galeria HTML molona? aquest és el teu script. Ací tens un exemple de com queda la web resultant: http://galeriahtml.joancatala.net/
+
+Al fitxer '''galeriaHTML.tar.gz''' tens 3 index.php d'exemple: web amb 3 columnes, amb columnes i amb 9 columnes.
 
 Jo tinc un hortet al terrat, aquest programa em va servir per primera vegada per organitzar-me les fotos de l'hort
 que les tinc a http://hortet.joancatala.net , i ara he volgut que aquest script servisca per a altres
