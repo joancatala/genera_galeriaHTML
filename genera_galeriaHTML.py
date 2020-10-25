@@ -1,24 +1,27 @@
 #!/usr/bin/python
 #
 # 4 de juny 2020 - joan <joan@riseup.net> 
-# joancatala.net
-#
-# Tinc un hortet, i aquest programa em va servir per primera vegada per organitzar-me les fotos de l'hort
-# que les tinc a http://hortet.joancatala.net , i ara he volgut que aquest script servisca per a altres
-# galeries HTML que tinc, com per exemple la meua galeria d'astrofotografia http://astrofotografia.joancatala.net
-# I xim pum.
+# Web del genera_galeriaHTML.py: http://galeriahtml.joancatala.net
 #
 # Requisits:
-# ImageMagick i Python >3
+# ================================
+# ImageMagick i Python 3.x
 #
-# Descarrega l'script amb git clone 
-# Primer pas:  cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'
-# Segon pas: configura el nom del teu usuari i servidor i ruta remota de la teua web
-# Tercer pas: python3 ./genera_galeria.py
+# Instal·lació i execució:
+# ================================
+# Descarrega-ho amb: git clone https://github.com/joancatala/genera_galeriaHTML.git
+# Puja al teu servidor la web galeriaHTML.tar.gz i descomprimeix-la.
+# Puja la clau SSH al servidor per a no escriure la contrasenya constantment: cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'
+# Configura el nom del teu usuari, nom del servidor i la teua ruta remota de la teua web (en l'apartat "Configuració")
+# Finalment, executa l'script: python3 ./genera_galeria.py
 
-usuari = 'u58642300'
-servidor = 'home329291155.1and1-data.host'
-ruta = '/kunden/homepages/37/d329291155/htdocs/joancatala.net/astrofotografia.joancatala.net/'
+#####################################################################################
+# Configuració
+#####################################################################################
+
+usuari = 'EL_TEU_USUARI'
+servidor = 'EL_TEU_SERVIDOR'
+ruta = 'LA_RUTA_ABSOLUTA_DE_LA_TEUA_GALERIA_HTML_EN_EL_TEU_SERVIDOR'
 
 #####################################################################################
 # Modulets
