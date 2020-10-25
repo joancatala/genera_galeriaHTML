@@ -9,21 +9,26 @@ Al fitxer **galeriaHTML.tar.gz** tens 3 index.php d'exemple: web amb 3 columnes,
 
 <center>
   <h3>Galeria amb 3 columnes</h3>
-  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-3-columnas.jpg" width="400" alt="Exemple de galeria amb 3 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-3-columnas.jpg" width="450" alt="Exemple de galeria amb 3 columnes"><br />
 </center>
   
 <center>
   <h3>Galeria amb 6 columnes</h3>
-  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-6-columnas.jpg" width="400" alt="Exemple de galeria amb 6 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-6-columnas.jpg" width="450" alt="Exemple de galeria amb 6 columnes"><br />
 </center>
   
 <center>
   <h3>Galeria amb 9 columnes</h3>
-  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-9-columnas.jpg" width="400" alt="Exemple de galeria amb 9 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-9-columnas.jpg" width="450" alt="Exemple de galeria amb 9 columnes"><br />
 </center>
 
-Jo tinc un hortet al terrat, aquest programa em va servir per primera vegada per organitzar-me les fotos de l'hort que les tinc a http://hortet.joancatala.net , i ara he volgut que aquest script servisca per a altres galeries HTML que tinc, com per exemple la meua galeria d'astrofotografia http://astrofotografia.joancatala.net
-I xim pum.
+Exemples de galeries:
+==========================
+Jo tinc un hortet al terrat, aquest programa em va servir per primera vegada per organitzar-me les fotos de l'hort que les tinc a http://hortet.joancatala.net 
+
+I ara, que he modificat l'script perquè he volgut que aquest script servisca per a altres galeries HTML que tinc, m'he creat també la meua galeria d'astrofotografia, que és un dels meus passatemps favorits. Accedeix a la galeria des de la url http://astrofotografia.joancatala.net
+
+I bé, ací tens dos exemples del que pots tenir en pocs minuts de manera automàtica.
 
 Requisits:
 ==========================
