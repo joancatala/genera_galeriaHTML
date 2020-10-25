@@ -49,8 +49,14 @@ Has de crear un directori anomenat ***fotos-originals*** i deixar els teus direc
 2 aniversari-31-anys
 3 aniversari-del-meu-cosí
 4 aniversari-de-la-meua-germana-Ana
-
 I així ja ho tindríes preparat per a tenir una galeria amb 4 directoris ordenats.
+
+Per exemple, l'estructura de la meua galeria astrofotogràfica que tinc a http://astrofotografia.joancatala.net és la següent:
+
+<img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/pcmanfm-galeria-HTML-script-python.jpg" width="650" alt="galeria astrofotogràfica autogenerada amb genera_galeriaHTML" />
+
+I ara, en qüestió de pocs minuts, podries generar, comprimir i pujar la teua galeria cap al teu servidor automàticament. Tot en un pas!
+
 
 Instal·lació i execució:
 ==========================
