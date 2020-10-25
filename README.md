@@ -50,7 +50,7 @@ Instal·lació i execució:
 2. Puja al teu servidor la web ***galeriaHTML.tar.gz*** i descomprimeix-la.
 3. Puja la clau SSH al servidor per a no escriure la contrasenya constantment: ***cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'***  
 4. Configura el nom del teu usuari, nom del servidor i la teua ruta remota de la teua web (en l'apartat "Configuració")
-5. Finalment, executa l'script: ***python3 ./genera_galeria.py***  tal i com veuràs a la següent captura de pantalla:
+5. Finalment, executa l'script: ***python3 ./genera_galeriaHTML.py***  tal i com veuràs a la següent captura de pantalla:
 
 <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/terminal1.jpg" width="650px" alt="" />
 
