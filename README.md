@@ -12,7 +12,8 @@ I xim pum.
 
 Requisits:
 ==========================
-doas pkg_add -vi ImageMagick && doas pkg_add -vi Python >3
+doas pkg_add -vi ImageMagick  
+doas pkg_add -vi Python >3
 
 L'he desenvolupat al meu portàtil (OpenBSD) però mentre tingues Python et funcionarà, a banda de a OpenBSD, a 
 Windows, FreeBSD, MacOS X, Linux, etc. 
