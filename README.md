@@ -9,17 +9,17 @@ Al fitxer **galeriaHTML.tar.gz** tens 3 index.php d'exemple: web amb 3 columnes,
 
 <center>
   <h3>Galeria amb 3 columnes</h3>
-  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-3-columnas.jpg" width="450" alt="Exemple de galeria amb 3 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-3-columnas.jpg" width="550" alt="Exemple de galeria amb 3 columnes"><br />
 </center>
   
 <center>
   <h3>Galeria amb 6 columnes</h3>
-  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-6-columnas.jpg" width="450" alt="Exemple de galeria amb 6 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-6-columnas.jpg" width="550" alt="Exemple de galeria amb 6 columnes"><br />
 </center>
   
 <center>
   <h3>Galeria amb 9 columnes</h3>
-  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-9-columnas.jpg" width="450" alt="Exemple de galeria amb 9 columnes"><br />
+  <img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/captura-9-columnas.jpg" width="550" alt="Exemple de galeria amb 9 columnes"><br />
 </center>
 
 Exemples de galeries:
@@ -50,4 +50,9 @@ Instal·lació i execució:
 2. Puja al teu servidor la web ***galeriaHTML.tar.gz*** i descomprimeix-la.
 3. Puja la clau SSH al servidor per a no escriure la contrasenya constantment: ***cat ~/.ssh/id_rsa.pub | ssh EL_TEU_USUARI@EL_TEU_SERVIDOR 'cat - >> ~/.ssh/authorized_keys'***  
 4. Configura el nom del teu usuari, nom del servidor i la teua ruta remota de la teua web (en l'apartat "Configuració")
-5. Finalment, executa l'script: ***python3 ./genera_galeria.py***  
+5. Finalment, executa l'script: ***python3 ./genera_galeria.py***  tal i com veuràs a la següent captura de pantalla:
+
+<img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/terminal1.jpg" width="550px" alt="" />
+
+Veurem els processos que van ocorreguent:
+<img src="https://raw.githubusercontent.com/joancatala/genera_galeriaHTML/main/terminal1.jpg" width="550px" alt="" />
