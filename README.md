@@ -24,9 +24,8 @@ Al fitxer **galeriaHTML.tar.gz** tens 3 index.php d'exemple: web amb 3 columnes,
 
 Exemples de galeries:
 ==========================
-Jo tinc un hortet al terrat, aquest programa em va servir per primera vegada per organitzar-me les fotos de l'hort que les tinc a http://hortet.joancatala.net 
-
-I ara, que he modificat l'script perquè he volgut que aquest script servisca per a altres galeries HTML que tinc, m'he creat també la meua galeria d'astrofotografia, que és un dels meus passatemps favorits. Accedeix a la galeria des de la url http://astrofotografia.joancatala.net
+- http://hortet.joancatala.net 
+- http://astrofotografia.joancatala.net
 
 I bé, ací tens dos exemples del que pots tenir en pocs minuts de manera automàtica.
 
